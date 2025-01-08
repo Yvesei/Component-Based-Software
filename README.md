@@ -1,1 +1,1 @@
-##  XML based spring configuration - Constructor Injection. 
+##  XML based spring configuration - Setter Injection. 

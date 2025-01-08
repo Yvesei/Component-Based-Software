@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="printer" class="fr.ensibs.TD1.dao.Printer"></bean>
     <bean id="helloer" class="fr.ensibs.TD1.metier.Helloer">
-        <constructor-arg ref="printer" />
+        <property name="printer" ref="printer" />
     </bean>
 
 </beans>
