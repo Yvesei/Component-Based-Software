@@ -6,4 +6,12 @@
 
         <context:component-scan base-package="fr.ensibs.TD1"></context:component-scan>
 
+        <bean id="hello1" class="fr.ensibs.TD1.dao.Printer">
+                <property name="msg" value="hello1"/>
+        </bean>
+        <bean id="hello2" class="fr.ensibs.TD1.dao.Printer">
+                <property name="msg" value="hello2"/>
+        </bean>
+        <bean id="Helloer" class="fr.ensibs.TD1.metier.Helloer">
+        </bean>
 </beans>
